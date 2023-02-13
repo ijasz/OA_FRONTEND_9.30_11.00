@@ -1,0 +1,23 @@
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+
+.relative1 {
+    position: relative;
+    background-color: red;
+}
+
+.relative2 {
+    position: relative;
+    background-color: aqua;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background-color: aquamarine;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::before {
+            content: "The ";
+        }
+
+        p::after {
+            content: " King";
+        }
+
+        p.para::selection {
+            background-color: transparent;
+        }
+
+        .btn {
+            cursor: help;
+            margin-block: 10px;
+            height: 20px;
+            width: 30px;
+            padding: 10px;
+            background-color: antiquewhite;
+        }
+
+        .btn::selection {
+            background-color: transparent;
+        }
+
+        .btn:active {
+            background-color: transparent;
+            border: 1px solid blue;
+            color: red;
+            scale: 1.1;
+        }
+
+        p.para::first-letter {
+            font-size: 50px;
+            color: rebeccapurple;
+        }
+
+        p.para::first-line {
+            color: red;
+        }
+
+        .a::marker {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lion</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut qui accusantium veniam quas inventore
+        minus tempora sequi harum! Nostrum corporis dicta fuga repellendus mollitia iusto porro tempora reprehenderit
+        officia libero!</p>
+    <button>Click</button>
+    <div class="btn">click</div>
+    <ul>
+        <li class="a">apple</li>
+        <li>grapes</li>
+        <li>grapes</li>
+    </ul>
+
+    <ol>
+        <li class="a">apple</li>
+        <li>grapes</li>
+        <li>grapes</li>
+    </ol>
+
+    <a href="">asd</a>
+</body>
+
+</html>
