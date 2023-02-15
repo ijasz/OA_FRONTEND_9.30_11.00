@@ -1,0 +1,21 @@
+.center, .parent1 .child1 .child2, .parent1 .child1, .parent1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent1 {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+.parent1 .child1 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.parent1 .child1 .child2 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

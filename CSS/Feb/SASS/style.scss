@@ -1,0 +1,41 @@
+@import "./variables";
+@import "./classes";
+
+
+.parent1 {
+    height: calc($box + 100) + px;
+    width: calc($box + 100) + px;
+    background-color: $primary;
+    @extend .center;
+
+    .child1 {
+        height: $box + px;
+        width: $box + px;
+        background-color: $secondary;
+        @extend .center;
+
+        .child2 {
+            height: calc($box - 50) + px;
+            width: calc($box - 50) + px;
+            background-color: red;
+            @extend .center;
+        }
+    }
+}
+
+
+
+
+// .parent1 .child1 {
+//     height: $box + px;
+//     width: $box + px;
+//     background-color: $secondary;
+// }
+
+// .parent1 .child1 .child2 {
+
+// }
+
+// .parent1 .child1 .child2 .child3 {
+
+// }
