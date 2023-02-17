@@ -1,0 +1,22 @@
+@import "nav";
+
+.cover-image-content {
+    min-height: 80vh;
+    color: white;
+    background-image: url("https://sandbox.elemisthemes.com/assets/img/photos/bg16.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .wrapper {
+        max-width: 550px;
+
+        .read-more-btn {
+            max-width: 180px;
+            border: 1px solid white;
+            border-radius: 0.5rem;
+        }
+    }
+
+
+}

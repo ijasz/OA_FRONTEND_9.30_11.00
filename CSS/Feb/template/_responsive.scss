@@ -46,6 +46,10 @@
     color: green;
 }
 
+.clr-light {
+    color: white;
+}
+
 .bg-light {
     background-color: white;
     color: black;
@@ -185,6 +189,10 @@ $i: 1;
     $i: $i + 1;
 }
 
+.m-auto {
+    margin-inline: auto;
+}
+
 // margin,padding,flex -----
 
 // rem fonts --
@@ -229,4 +237,11 @@ $w: 10;
     }
 
     $w: $w + 5;
+}
+
+
+@mixin mq($width) {
+    @media (max-width: $width) {
+        @content;
+    }
 }
