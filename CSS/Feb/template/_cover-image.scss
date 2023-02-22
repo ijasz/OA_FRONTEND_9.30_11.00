@@ -1,22 +1,62 @@
 @import "nav";
 
-.cover-image-content {
-    min-height: 80vh;
-    color: white;
-    background-image: url("https://sandbox.elemisthemes.com/assets/img/photos/bg16.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.cover-image {
+    position: relative;
 
-    .wrapper {
-        max-width: 550px;
+    &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.044);
+        z-index: 0;
+    }
 
-        .read-more-btn {
-            max-width: 180px;
-            border: 1px solid white;
-            border-radius: 0.5rem;
+    .curve {
+        bottom: 0%;
+        position: absolute;
+        width: 100%;
+    }
+
+
+    .cover-image-content {
+        padding-block: 12rem;
+        color: white;
+        background-image: url("https://sandbox.elemisthemes.com/assets/img/photos/bg16.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        .wrapper {
+            max-width: 550px;
+
+            .read-more-btn {
+                max-width: 180px;
+                border: 1px solid white;
+                border-radius: 0.5rem;
+            }
         }
     }
 
 
+    .flex-wrapper {
+        position: absolute;
+        bottom: -30%;
+        left: 50%;
+        translate: -50%;
+        gap: 2rem;
+
+        .flex-item {
+            flex: 1;
+            background-color: white;
+            border-radius: 1rem;
+            box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.073);
+
+
+            .icon {
+                font-size: 3rem;
+            }
+        }
+    }
 }
