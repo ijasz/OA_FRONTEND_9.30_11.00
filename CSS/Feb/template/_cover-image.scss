@@ -20,7 +20,7 @@
 
 
     .cover-image-content {
-        padding-block: 12rem;
+        padding-block: 16rem;
         color: white;
         background-image: url("https://sandbox.elemisthemes.com/assets/img/photos/bg16.png");
         background-position: center center;
@@ -32,7 +32,7 @@
             max-width: 550px;
 
             .read-more-btn {
-                max-width: 180px;
+                max-width: 12rem;
                 border: 1px solid white;
                 border-radius: 0.5rem;
             }
@@ -42,7 +42,7 @@
 
     .flex-wrapper {
         position: absolute;
-        bottom: -30%;
+        bottom: -20%;
         left: 50%;
         translate: -50%;
         gap: 2rem;

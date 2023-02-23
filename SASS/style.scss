@@ -1,0 +1,9 @@
+@import "./variable";
+@import "./content1";
+@import "./content2";
+
+
+
+body {
+    background-color: $primary;
+}

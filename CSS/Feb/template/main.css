@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-size: 10px;
+}
+
 * {
   margin: 0px;
   padding: 0%;
@@ -8,7 +12,7 @@
 
 .container {
   width: 95%;
-  max-width: 1300px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -1013,6 +1017,126 @@
   width: 100%;
 }
 
+.gap-1 {
+  gap: 0.5rem;
+}
+
+.gap-2 {
+  gap: 0.7rem;
+}
+
+.gap-3 {
+  gap: 0.9rem;
+}
+
+.gap-4 {
+  gap: 1.1rem;
+}
+
+.gap-5 {
+  gap: 1.3rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-7 {
+  gap: 1.7rem;
+}
+
+.gap-8 {
+  gap: 1.9rem;
+}
+
+.gap-9 {
+  gap: 2.1rem;
+}
+
+.gap-10 {
+  gap: 2.3rem;
+}
+
+.gap-11 {
+  gap: 2.5rem;
+}
+
+.gap-12 {
+  gap: 2.7rem;
+}
+
+.gap-13 {
+  gap: 2.9rem;
+}
+
+.gap-14 {
+  gap: 3.1rem;
+}
+
+.gap-15 {
+  gap: 3.3rem;
+}
+
+.gap-16 {
+  gap: 3.5rem;
+}
+
+.gap-17 {
+  gap: 3.7rem;
+}
+
+.gap-18 {
+  gap: 3.9rem;
+}
+
+.gap-19 {
+  gap: 4.1rem;
+}
+
+.gap-20 {
+  gap: 4.3rem;
+}
+
+.gap-21 {
+  gap: 4.5rem;
+}
+
+.gap-22 {
+  gap: 4.7rem;
+}
+
+.gap-23 {
+  gap: 4.9rem;
+}
+
+.gap-24 {
+  gap: 5.1rem;
+}
+
+.gap-25 {
+  gap: 5.3rem;
+}
+
+.gap-26 {
+  gap: 5.5rem;
+}
+
+.gap-27 {
+  gap: 5.7rem;
+}
+
+.gap-28 {
+  gap: 5.9rem;
+}
+
+.gap-29 {
+  gap: 6.1rem;
+}
+
+.gap-30 {
+  gap: 6.3rem;
+}
+
 nav {
   width: 100%;
   position: fixed;
@@ -1058,7 +1182,7 @@ nav #menu {
   width: 100%;
 }
 .cover-image .cover-image-content {
-  padding-block: 12rem;
+  padding-block: 16rem;
   color: white;
   background-image: url("https://sandbox.elemisthemes.com/assets/img/photos/bg16.png");
   background-position: center center;
@@ -1069,13 +1193,13 @@ nav #menu {
   max-width: 550px;
 }
 .cover-image .cover-image-content .wrapper .read-more-btn {
-  max-width: 180px;
+  max-width: 12rem;
   border: 1px solid white;
   border-radius: 0.5rem;
 }
 .cover-image .flex-wrapper {
   position: absolute;
-  bottom: -30%;
+  bottom: -20%;
   left: 50%;
   translate: -50%;
   gap: 2rem;
@@ -1088,4 +1212,30 @@ nav #menu {
 }
 .cover-image .flex-wrapper .flex-item .icon {
   font-size: 3rem;
+}
+
+.content1 {
+  margin-top: 20rem;
+}
+.content1 .card {
+  flex: 1;
+  width: 100%;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.124);
+}
+.content1 .grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+.content1 .grid-wrapper img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.content1 .grid-wrapper .learn-more-btn {
+  height: 4rem;
+  max-width: 12rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  background-color: hotpink;
 }/*# sourceMappingURL=main.css.map */
