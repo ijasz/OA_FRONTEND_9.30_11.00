@@ -1,0 +1,17 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+
+    @include mq(1000px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mq(600px) {
+        grid-template-columns: 1fr;
+    }
+
+    .join-btn {
+        border: 1px solid rgba(0, 0, 0, 0.564);
+    }
+}
