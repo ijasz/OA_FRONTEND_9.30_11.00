@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // const a = Number(prompt("enter the case value"))
+        const date = new Date();
+        // console.log(typeof Date());
+        // console.log(new Date().getDay());
+
+        console.log(new Date().getDay());
+
+
+        switch (date.getDay()) {
+            case 0:
+                document.write("sun");
+                break;
+
+            case 1:
+                document.write("mon");
+                break;
+
+            case 2:
+                document.write("tue");
+                break;
+
+            case 3:
+                document.write("wed");
+                break;
+
+            case 4:
+                document.write("thr");
+                break;
+
+            case 5:
+                document.write("fri");
+                break;
+
+            case 6:
+                document.write("sat");
+                break;
+
+            default:
+                document.write("invalid");
+                break;
+        }
+
+
+    </script>
+</body>
+
+</html>
