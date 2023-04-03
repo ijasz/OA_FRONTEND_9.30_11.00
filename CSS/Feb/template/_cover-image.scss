@@ -1,0 +1,53 @@
+@import "nav";
+@import "mixins";
+
+.cover-image {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.044);
+        z-index: 0;
+    }
+
+    .curve {
+        bottom: 0%;
+        position: absolute;
+        width: 100%;
+    }
+
+
+    .cover-image-content {
+        padding-block: 16rem;
+        color: white;
+        background-image: url("https://sandbox.elemisthemes.com/assets/img/photos/bg16.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .title {
+            @include mq(600px) {
+                font-size: 4rem;
+            }
+        }
+
+
+
+
+        .wrapper {
+            max-width: 550px;
+
+            .read-more-btn {
+                max-width: 12rem;
+                border: 1px solid white;
+                border-radius: 0.5rem;
+            }
+        }
+    }
+
+
+
+}

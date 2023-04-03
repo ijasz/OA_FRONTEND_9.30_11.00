@@ -1,0 +1,17 @@
+.content3 {
+    margin-block-end: 10rem;
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+
+        @include mq(600px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}

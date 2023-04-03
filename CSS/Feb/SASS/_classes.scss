@@ -1,0 +1,25 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%module1 {
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

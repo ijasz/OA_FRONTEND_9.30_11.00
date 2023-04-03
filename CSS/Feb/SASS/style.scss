@@ -1,0 +1,55 @@
+@import "./variables";
+@import "./classes";
+
+
+// @mixin box($h, $w, $bg: blue) {
+//     height: $h;
+//     width: $w;
+//     background-color: $bg;
+// }
+
+
+// .parent1 {
+//     @include box(calc($box + 100)+px, calc($box + 100)+px, $primary);
+//     @extend .center;
+
+//     .child1 {
+//         @include box(100px, 100px);
+//         @extend %module1;
+
+//         .child2 {
+//             height: calc($box - 50) + px;
+//             width: calc($box - 50) + px;
+//             background-color: red;
+//             // @extend .center;
+//         }
+//     }
+// }
+
+
+
+
+// .parent1 .child1 {
+//     height: $box + px;
+//     width: $box + px;
+//     background-color: $secondary;
+// }
+
+// .parent1 .child1 .child2 {
+
+// }
+
+// .parent1 .child1 .child2 .child3 {
+
+// }
+
+
+$p : 0;
+
+@for $i from 1 through 50 {
+    $p : $p + 3;
+
+    .p#{$i} {
+        padding: $p + px;
+    }
+}
