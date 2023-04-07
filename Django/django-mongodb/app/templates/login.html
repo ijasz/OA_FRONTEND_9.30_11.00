@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Login Form</h2>
+      {% block content %}
+      <form action="/home">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required />
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+        <input type="submit" />
+      </form>
+      {% endblock %}
+    </div>
+
+    <script src="{% static 'js/login.js' %}"></script>
+  </body>
+</html>

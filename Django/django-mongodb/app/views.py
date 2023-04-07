@@ -1,3 +1,4 @@
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
 # from django.http import HttpResponse
 import pymongo
@@ -47,4 +48,9 @@ for i in newuser.find():
 
 
 def home(req):
+    print(req, "----------------")
     return render(req, "home.html", {"data":  data})
+
+
+def login(req):
+    return render(req, "login.html")
